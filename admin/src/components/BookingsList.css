@@ -1,0 +1,183 @@
+/* BookingsList.css */
+
+.bookings-table-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.bookings-table {
+  margin-bottom: 0;
+}
+
+.bookings-table thead th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 600;
+  color: #495057;
+}
+
+.bookings-table tbody tr:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease;
+}
+
+.bookings-table tbody tr {
+  cursor: pointer;
+}
+
+/* Table column widths */
+.bookings-table th:nth-child(1) {
+  width: 40%;
+}
+
+.bookings-table th:nth-child(2) {
+  width: 40%;
+}
+
+.bookings-table th:nth-child(3) {
+  width: 20%;
+}
+
+/* Order ID cell styling */
+.order-id-cell {
+  padding: 8px 0;
+}
+
+.order-id-short {
+  font-weight: 700;
+  color: #dc3545;
+  font-size: 1.1rem;
+}
+
+.order-date-small {
+  font-size: 0.85rem;
+  margin-top: 4px;
+  color: #6c757d;
+}
+
+/* Price info styling */
+.price-info {
+  padding: 8px 0;
+}
+
+.price-amount {
+  font-weight: 700;
+  color: #28a745;
+  font-size: 1.2rem;
+}
+
+.price-duration {
+  font-size: 0.85rem;
+  margin-top: 4px;
+  color: #6c757d;
+  display: inline-block;
+  background-color: #f8f9fa;
+  padding: 2px 8px;
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+}
+
+/* Guest and Room info styling in table */
+.guest-info, .room-info {
+  padding: 2px 0;
+}
+
+.room-info {
+  min-width: 200px;
+}
+
+.room-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #dc3545;
+}
+
+.guest-name {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.guest-email, .room-location, .room-gender {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 2px;
+}
+
+.room-location {
+  display: flex;
+  align-items: center;
+}
+
+.room-gender {
+  margin-top: 4px;
+}
+
+/* Booking details modal styling */
+.booking-details h6 {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.booking-details h5 {
+  font-weight: 700;
+}
+
+.booking-details p {
+  margin-bottom: 0.5rem;
+}
+
+.booking-details strong {
+  color: #495057;
+  min-width: 100px;
+  display: inline-block;
+}
+
+/* Order ID section styling */
+.order-id-section {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.order-id {
+  font-size: 1.1rem;
+  word-break: break-all;
+}
+
+/* Price info card styling */
+.price-info-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #28a745;
+}
+
+.price-label {
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.price-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #28a745;
+}
+
+.duration-badge {
+  font-size: 0.8rem;
+  background-color: #6c757d;
+}
+
+/* Room details card styling */
+.room-details-card {
+  background-color: #f8f9fa;
+  border-left: 4px solid #dc3545;
+}
+
+.room-details-header {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,10 @@
+.booking-list {
+    font-size: 15px;
+    color: #333;
+}
+.btn-outline-primary:hover {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+  

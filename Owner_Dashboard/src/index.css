@@ -1,0 +1,35 @@
+/* App.css or custom-theme.css */
+
+:root {
+  --primary-color: #dc3545; /* Red */
+  --secondary-color: #ffffff; /* White */
+  --text-color: #000000;
+  --hover-color: #b02a37; /* Darker red */
+}
+
+/* Global Styles */
+body {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bg-primary-custom {
+  background-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+}
+
+.text-primary-custom {
+  color: var(--primary-color) !important;
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-primary-custom:hover {
+  background-color: var(--hover-color);
+  border-color: var(--hover-color);
+}

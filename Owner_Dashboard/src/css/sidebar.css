@@ -1,0 +1,88 @@
+.sidebar-container .sidebar-link {
+    color: #ffffff !important;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+    text-shadow: none;
+    display: block;
+}
+
+.sidebar-container .sidebar-header {
+    color: #ffffff !important;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Owner avatar styling */
+.owner-avatar {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-container .sidebar-link:hover {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    transform: translateX(5px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.logoutbtn{
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    background-color: #ffffff;
+    color: #dc3545;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logoutbtn:hover{
+    background-color: #f8f9fa;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* New class for sidebar background */
+.sidebar-container {
+    background-color: #dc3545;
+    width: 250px;
+    height: 100vh;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+
+/*fixx sidebar */
+.fixed-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* full height */
+    width: 250px; /* set your sidebar width */
+    background-color: #fff; /* or any background */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* stay on top */
+    overflow-y: auto;
+  }

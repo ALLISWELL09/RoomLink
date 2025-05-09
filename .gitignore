@@ -1,0 +1,160 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/package-lock.json
+/yarn.lock
+
+# Environment variables and configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+config.js
+config.json
+*.config.js
+*.config.json
+
+# Build outputs
+/build
+/dist
+/.next/
+/out/
+/.nuxt
+/.output
+/coverage
+
+# Logs
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+/coverage
+/.nyc_output
+/cypress/videos/
+/cypress/screenshots/
+
+# Security and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.csr
+*.der
+*.priv
+*.keystore
+*.jks
+*.p7b
+*.p7c
+*.p7s
+*.spc
+*.stl
+*.pvk
+/credentials/
+/secrets/
+/private/
+/secure/
+/security/
+/auth/
+/tokens/
+/keys/
+/certs/
+/certificates/
+/ssl/
+/tls/
+firebase-adminsdk.json
+google-services.json
+GoogleService-Info.plist
+serviceAccountKey.json
+firebase-credentials.json
+aws-credentials.json
+azure-credentials.json
+gcp-credentials.json
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+/prisma/migrations/
+/prisma/.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Compiled output
+*.min.js
+*.min.css
+*.bundle.js
+*.bundle.css
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Cloudinary credentials
+cloudinary.config.js
+cloudinary.json
+
+# Payment gateway credentials
+razorpay.config.js
+razorpay.json
+razorpay-keys.js
+razorpay-keys.json
+razorpay.env
+razorpay_key_id.txt
+razorpay_key_secret.txt
+*razorpay*.key
+*razorpay*.secret
+payment-gateway-credentials.js
+payment-gateway-credentials.json
+
+# Specific to RoomLink project
+# Add any project-specific files or directories you want to ignore

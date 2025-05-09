@@ -1,0 +1,74 @@
+/* Main application styling */
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333333;
+    line-height: 1.6;
+}
+
+h4 {
+    color: #333333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+h4:hover {
+    color: #dc3545;
+}
+
+hr {
+    border-color: #dee2e6;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    margin: 20px 0;
+}
+
+.content-wrapper {
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.p-4 {
+    padding: 2rem !important;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Custom text styles */
+.text-muted {
+    color: #6c757d !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.btn-custom {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn-custom:hover {
+    background-color: #c82333;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 

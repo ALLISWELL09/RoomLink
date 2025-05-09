@@ -1,0 +1,13 @@
+.profile-container {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .profile-container h4 {
+    font-weight: 600;
+  }
+  
+  .card p {
+    font-size: 1rem;
+  }
+  
